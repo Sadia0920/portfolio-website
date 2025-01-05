@@ -1,0 +1,47 @@
+.projectCard {
+    width: 100%;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .projectCard:hover {
+    transform: scale(1.05);
+    box-shadow:  0 10px 18px rgba(0, 0, 0, 0.6);
+  }
+  
+  .projectCard-header {
+    margin-bottom: 14px;
+  }
+  
+  .projectCard-badge {
+    padding: 8px 12px;
+    border-radius: 10px;
+    color:rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: bold;
+  }
+  
+  .projectCard-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .projectCard-description {
+    color:rgb(85, 85, 85);
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .projectCard-instructor {
+    font-size: 16px;
+    font-weight: bold;
+    color:rgb(51, 51, 51);
+    margin-top: 10px;
+  }
+  
