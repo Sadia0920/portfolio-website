@@ -13,18 +13,18 @@ export default function Education() {
       <p className='text-gray-500 text-lg font-medium mt-2'>Computer Scinece and Engineering
         <br></br>
       Mymensingh Engineering College</p>
-      <p className='text-gray-400 font-medium my-2'>2019-2024</p>
+      <p className='text-gray-400 font-medium my-2'><i className="fa-regular fa-calendar-days mr-1"></i>2019-2024</p>
       {/* Open the modal using document.getElementById('ID').showModal() method */}
-<button className="text-[#008080]" onClick={()=>document.getElementById('my_modal_5').showModal()}>View More</button>
+<button className="text-[#008080]" onClick={()=>document.getElementById('my_modal_5').showModal()}>View More <i className="fa-solid fa-arrow-right"></i></button>
 <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
   <div className="modal-box">
     <h3 className="font-bold text-xl py-4">Mymensingh Engineer College</h3>
-    <p className="py-4 text-gray-500 text-lg font-medium">
-    B.Sc. in Computer Science and Engineering</p>
-    <p className="py-4 text-gray-500 text-lg font-medium">
+    <p className="py-4 text-gray-500 text-lg font-medium"><i className="fa-regular fa-circle-check mr-1"></i>
+     B.Sc. in Computer Science and Engineering</p>
+    <p className="py-4 text-gray-500 text-lg font-medium"><i className="fa-regular fa-circle-check mr-1"></i> 
     February 2019 - May 2024</p>
-    <p className="py-4 text-gray-500 text-lg font-medium">
-    CGPA 3.47 out of 4.00</p>
+    <p className="py-4 text-gray-500 text-lg font-medium"><i className="fa-regular fa-circle-check mr-1"></i>
+     CGPA 3.47 out of 4.00</p>
     <div className="modal-action">
       <form method="dialog">
         {/* if there is a button in form, it will close the modal */}
@@ -67,14 +67,14 @@ export default function Education() {
       <p className='text-gray-500 text-lg font-medium mt-2'>Scinece
         <br></br>
       Shamsul Haque Khan School & College</p>
-      <p className='text-gray-400 font-medium my-2'>2016-2018</p>
+      <p className='text-gray-400 font-medium my-2'><i className="fa-regular fa-calendar-days mr-1"></i>2016-2018</p>
       {/* Open the modal using document.getElementById('ID').showModal() method */}
-<button className="text-[#008080]" onClick={()=>document.getElementById('my_modal_4').showModal()}>View More</button>
+<button className="text-[#008080]" onClick={()=>document.getElementById('my_modal_4').showModal()}>View More <i className="fa-solid fa-arrow-right"></i></button>
 <dialog id="my_modal_4" className="modal modal-bottom sm:modal-middle">
   <div className="modal-box">
     <h3 className="font-bold text-xl py-4">Shamsul Haque Khan School & College</h3>
-    <p className="py-4 text-gray-500 text-lg font-medium">Study Science</p>
-    <p className="py-4 text-gray-500 text-lg font-medium">
+    <p className="py-4 text-gray-500 text-lg font-medium"><i className="fa-regular fa-circle-check mr-1"></i> Study Science</p>
+    <p className="py-4 text-gray-500 text-lg font-medium"><i className="fa-regular fa-circle-check mr-1"></i> 
     Result: GPA 5.00</p>
     <div className="modal-action">
       <form method="dialog">
@@ -92,15 +92,15 @@ export default function Education() {
     <div className="timeline-start timeline-box p-5">
     <h3 className='text-2xl font-semibold'>Online Courses</h3>
       <p className='text-gray-500 text-lg font-medium mt-2'>Online Courses</p>
-      <p className='text-gray-500 text-lg font-medium my-2'>2024</p>
+      <p className='text-gray-500 text-lg font-medium my-2'><i className="fa-regular fa-calendar-days mr-1"></i>2024</p>
        {/* Open the modal using document.getElementById('ID').showModal() method */}
-<button className="text-[#008080]" onClick={()=>document.getElementById('my_modal_3').showModal()}>View More</button>
+<button className="text-[#008080]" onClick={()=>document.getElementById('my_modal_3').showModal()}>View More <i className="fa-solid fa-arrow-right"></i></button>
 <dialog id="my_modal_3" className="modal modal-bottom sm:modal-middle">
   <div className="modal-box">
     <h3 className="font-bold text-xl py-4">Courses Summary :</h3>
-    <p className="py-4 text-gray-500 text-lg font-medium">
+    <p className="py-4 text-gray-500 text-lg font-medium"><i className="fa-regular fa-circle-check mr-1"></i> 
     Problem Solving</p>
-    <p className="py-4 text-gray-500 text-lg font-medium">
+    <p className="py-4 text-gray-500 text-lg font-medium"><i className="fa-regular fa-circle-check mr-1"></i> 
     Programming Hero</p>
     <div className="modal-action">
       <form method="dialog">
