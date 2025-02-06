@@ -5,14 +5,13 @@ export default function Footer() {
     
   return (
     <div className='bg-[#008080] text-neutral-content'>
-        <footer className="footer items-center  w-11/12 mx-auto py-4">
-    <aside className="grid-flow-col items-center">
+        <footer className="footer items-center w-11/12 mx-auto py-4">
+    <div className="grid-flow-col items-center w-7/12 md:mx-0 mx-auto">
       <a className="btn btn-ghost text-2xl">
-          <img src={logo} alt="" className='w-9 h-9 rounded-full' />
-              Sadia Afrin</a>
-        
-    </aside>
-    <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
+        <img src={logo} alt="" className='w-9 h-9 rounded-full' />
+        Sadia Afrin</a>
+    </div>
+    <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end justify-self-center">
     <a href='https://x.com/sadiaafrin0920' target="_blank" >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +37,7 @@ export default function Footer() {
   </nav>
   
 </footer>
-<p className='text-center pb-4'>© Sadia Afrin {new Date().getFullYear()} - All right reserved</p>
+<p className='text-center py-4 md:pb-4'>© Sadia Afrin {new Date().getFullYear()} - All right reserved</p>
     </div>
   )
 }
