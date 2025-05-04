@@ -16,6 +16,8 @@ const router = createBrowserRouter([
           path: "/",
           element: <Home></Home>
         },
+      ]
+    },
         {
           path: "/project1Details",
           element: <Project1Details></Project1Details>
@@ -36,8 +38,7 @@ const router = createBrowserRouter([
           path: "/project5Details",
           element: <Project5Details></Project5Details>
         },
-      ]
-    },
+      
   ]);
 
 export default router;
