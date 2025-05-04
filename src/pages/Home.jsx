@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
-import picture from '../assets/formal.png'
+import { NavLink } from 'react-router-dom'
+import picture from '../assets/IMG.png'
 import Marquee from "react-fast-marquee";
 import Logos from '../components/Logos';
 import '../components/Logos.css'
@@ -12,6 +13,7 @@ import project23 from '../assets/project-2/pic3.png'
 import project31 from '../assets/project-3/pic1.png'
 import project32 from '../assets/project-3/pic2.png'
 import project33 from '../assets/project-3/pic3.png'
+import { Typewriter } from 'react-simple-typewriter';
 
 export default function() {
 
@@ -40,7 +42,7 @@ export default function() {
     <>
    {/* home */}
     <section id="home">
-    <div className="hero bg-base-100 w-9/12 mx-auto mt-20">
+    <div className="hero bg-base-100 w-9/12 mx-auto mt-4">
     <div className="hero-content flex-col lg:flex-row-reverse justify-center  w-full">
       <div className='flex-1'>
       <img
@@ -59,11 +61,22 @@ export default function() {
         </div>
        <div className='text-left'>
        <h1 className="text-3xl font-bold">Hi!👋, I'm Sadia Afrin</h1>
-        <p className="py-4 text-gray-600 text-2xl font-semibold">
-        and I'm a Web developer
+        <p className="py-3 text-gray-600 text-2xl font-semibold">
+        and I'm a {' '}
+        <span className="text-[#008080]">
+    <Typewriter
+      words={['Web developer', 'Frontend Enthusiast', 'React Lover']}
+      loop={true}
+      cursor
+      cursorStyle="_"
+      typeSpeed={70}
+      deleteSpeed={50}
+      delaySpeed={1500}
+    />
+  </span>
         </p>
-        <p className="pb-4 text-gray-500 text-lg font-medium">
-        Step into my digital realm where creativity meets functionality! As a web developer specializing in JavaScript , React, and Node.js. Dive into my portfolio to witness the fusion of cutting-edge technology with visionary design. Let's embark on a journey together, shaping the digital landscape one pixel at a time.
+        <p className="pb-4 text-gray-500 font-medium">
+        Welcome to my digital space where creativity meets code. I’m a web developer specializing in JavaScript, React, and Node.js. Explore my portfolio to see how technology and design come together to build impactful web experiences.
         </p>
         <a href="https://drive.google.com/file/d/16EKH1e71zqoqH-5DvfQUaGbuXiVo7v0u/view?usp=drive_link" target="_blank" className="btn bg-[#008080] text-white">Download Resume <i className="fa-solid fa-download"></i></a>
        </div>
@@ -280,6 +293,7 @@ export default function() {
   <div className="card-body md:w-5/12 w-10/12 lg:w-4/12 mx-auto text-center">
     <h2 className="text-xl font-bold mb-1">VolunForce</h2>
     <p className='text-gray-500 font-semibold mb-1'>This is a volunteer management website.</p>
+    <NavLink to='project1Details'><button className='btn bg-[#008080] text-white'>View Details</button></NavLink>
     <a href='https://github.com/programming-hero-web-course2/b10a11-client-side-Sadia0920' target="_blank" className="btn bg-[#008080] text-white">Github Link</a>
     <a href='https://volunforce-client.web.app/' target="_blank" className="btn bg-[#008080] text-white">Live Link</a>
   </div>
@@ -301,6 +315,7 @@ export default function() {
   <div className="card-body md:w-5/12 w-10/12 lg:w-4/12 mx-auto text-center">
     <h2 className="text-xl font-bold mb-1">Game Freak Reviews</h2>
     <p className='text-gray-500 font-semibold mb-1'>This is a game reviewing website.</p>
+    <NavLink to='project2Details'><button className='btn bg-[#008080] text-white'>View Details</button></NavLink>
     <a href='https://github.com/programming-hero-web-course2/b10-a10-client-side-Sadia0920' target="_blank" className="btn bg-[#008080] text-white">Github Link</a>
     <a href='https://game-freak-reviews-client.web.app/' target="_blank" className="btn bg-[#008080] text-white">Live Link</a>
   </div>
@@ -322,6 +337,7 @@ export default function() {
   <div className="card-body md:w-5/12 w-10/12 lg:w-4/12 mx-auto text-center">
     <h2 className="text-xl font-bold mb-1">Discount pro</h2>
     <p className='text-gray-500 font-semibold mb-1'>This is a discount coupon finding website.</p>
+    <NavLink to='project3Details'><button className='btn bg-[#008080] text-white'>View Details</button></NavLink>
     <a href='https://github.com/programming-hero-web-course1/b10-a9-authentication-Sadia0920' target="_blank" className="btn bg-[#008080] text-white">Github Link</a>
     <a href='https://discount-pro-bbfa4.web.app/' target="_blank" className="btn bg-[#008080] text-white">Live Link</a>
   </div>

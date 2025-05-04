@@ -13,50 +13,50 @@ export default function Navbar() {
   };
 
     const links = <>
-    <li className='text-gray-400 text-lg font-semibold flex items-center'>
+    <li className='text-gray-500 text-[15px] font-semibold flex items-center'>
       <Link to="home" smooth={true} 
       duration={500} 
       onClick={() => handleSetActive("home")}
-      className={activeLink === "home" ? "active" : ""}
+      className={activeLink === "home" ? "active" : " hover:text-indigo-600"}
       >Home</Link></li>
 
-    <li className='text-gray-400 text-lg font-semibold flex items-center'>
+    <li className='text-gray-500 text-[15px] font-semibold flex items-center'>
       <Link to="aboutMe" smooth={true} 
       duration={500} 
       onClick={() => handleSetActive("aboutMe")}
-      className={activeLink === "aboutMe" ? "active" : ""}
+      className={activeLink === "aboutMe" ? "active" : "hover:text-indigo-600"}
       >About</Link></li>
 
-      <li className='text-gray-400 text-lg font-semibold flex items-center'>
+      <li className='text-gray-500 text-[15px] font-semibold flex items-center'>
         <Link to="skills" smooth={true} 
         duration={500} 
         onClick={() => handleSetActive("skills")}
-        className={activeLink === "skills" ? "active" : ""}
+        className={activeLink === "skills" ? "active" : "hover:text-indigo-600"}
       >Skills</Link></li>
 
-      <li className='text-gray-400 text-lg font-semibold flex items-center'>
+      <li className='text-gray-500 text-[15px] font-semibold flex items-center'>
         <Link to="qualification" smooth={true} 
         duration={500} 
         onClick={() => handleSetActive("qualification")}
-        className={activeLink === "qualification" ? "active" : ""}
+        className={activeLink === "qualification" ? "active" : "hover:text-indigo-600"}
       >Qualification</Link></li>
 
-      <li className='text-gray-400 text-lg font-semibold flex items-center'>
+      <li className='text-gray-500 text-[15px] font-semibold flex items-center'>
         <Link to="projects" smooth={true} 
         duration={500} 
         onClick={() => handleSetActive("projects")}
-        className={activeLink === "projects" ? "active" : ""}
+        className={activeLink === "projects" ? "active" : "hover:text-indigo-600"}
         >Projects</Link></li>
 
-      <li className='text-gray-400 text-lg font-semibold flex items-center'>
+      <li className='text-gray-500 text-[15px] font-semibold flex items-center'>
         <Link to="contactMe" smooth={true} 
         duration={500} 
         onClick={() => handleSetActive("contactMe")}
-        className={activeLink === "contactMe" ? "active" : ""}
+        className={activeLink === "contactMe" ? "active" : "hover:text-indigo-600"}
         >Contact Me</Link></li>
     </>
   return (
-  <div className='bg-[#FFFFFF] sticky z-10 top-0 py-2 shadow-sm'>
+  <div className='bg-[#FFFFFF] sticky z-10 top-0 py-1 shadow-md'>
   <div className="navbar w-11/12 mx-auto ">
   <div className="navbar-start">
     <div className="dropdown">
@@ -85,7 +85,7 @@ export default function Navbar() {
     <img src={logo} alt="" className='w-9 h-9 rounded-full' />
         Sadia<span className='text-gray-600'>Afrin</span></a>
   </div>
-  <div className="navbar-end hidden lg:flex">
+  <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
       {links}
     </ul>

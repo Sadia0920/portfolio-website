@@ -1,11 +1,12 @@
 ul li a {
-    color: gray;
+    color: #2e2e2e;
     text-decoration: none;
     padding: 2px;
 }
   
 ul li a.active {
-    color: #008080; /* Change color for active link */
-    font-weight: bold;
-    text-decoration: underline;
+    color: #008080 !important;
+    background: transparent !important ;
+    /* font-weight: bold; */
+    text-decoration: underline; 
 }
