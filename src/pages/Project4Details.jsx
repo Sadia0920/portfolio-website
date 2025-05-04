@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { Link } from 'react-router-dom';
 
 export default function Project4Details() {
 
@@ -11,6 +12,7 @@ export default function Project4Details() {
   return (
     <div>
       <section className="w-10/12 mx-auto my-10 pb-5">
+      <Link to='/'><i class="fa-solid fa-arrow-left text-2xl text-[#008080] btn" data-aos="fade-down" data-aos-delay="100"></i></Link>
       <div className="about-content">
         <div className="card bg-base-100 shadow-lg projectCard" data-aos="fade-up">
         <h2 className='text-3xl text-center font-semibold mb-1' data-aos="fade-down" data-aos-delay="100">🎮 Game Freak Reviews</h2>
