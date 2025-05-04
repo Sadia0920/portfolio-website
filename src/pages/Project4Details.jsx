@@ -2,49 +2,41 @@ import React, { useEffect } from 'react'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
-export default function Project3Details() {
+export default function Project4Details() {
 
   useEffect(() => {
-      AOS.init({ duration: 1000, once: true });
-    }, []);
+        AOS.init({ duration: 1000, once: true });
+      }, []);
 
   return (
     <div>
       <section className="w-10/12 mx-auto my-10 pb-5">
       <div className="about-content">
         <div className="card bg-base-100 shadow-lg projectCard" data-aos="fade-up">
-        <h2 className='text-3xl text-center font-semibold mb-1' data-aos="fade-down" data-aos-delay="100">✋ VolunForce</h2>
+        <h2 className='text-3xl text-center font-semibold mb-1' data-aos="fade-down" data-aos-delay="100">🎮 Game Freak Reviews</h2>
         <p className='text-gray-700 text-lg font-medium py-4 px-10'>
           <span className='font-bold text-gray-900'>🔍Overview:</span>
           <br></br>
-          VolunForce is a platform designed to streamline volunteer management. The purpose of this website is helping the organization to find volunteer for social work and for help people to find volunteer work for wellbeing for society.
+          Game-Freak-Reviews is a dedicated platform for gamers to explore, review, and discuss the latest and greatest in the gaming world. Whether you're looking for in-depth reviews, expert ratings, or community opinions, we bring you honest, unbiased, and engaging content about video games across all platforms.
           <br></br>
           <br></br>
           <span className='font-bold text-gray-900'>🎯Target Sector:</span>
           <ul className="list-disc list-inside">
-            <li>Volunteers – Help volunteers to find social work.</li>
-            <li>Organizations – Helps organization to find perfect candidate or volunteers.</li>
+            <li>Gamers – helps gamers to know the latest update about game.</li>
           </ul>
           <br></br>
           <span className='font-bold text-gray-900'>✨Key Features:</span>
         <ul className="list-disc list-inside">
-          <li>📢 Organizer Features:
-            <ul className="list-decimal list-inside">
-              <li>Can create and manage volunteer need posts.</li>
-              <li>Can update existing volunteer need posts.</li>
-            </ul>
-          </li>
-          <li>✋ Volunteer Features:
-            <ul className="list-decimal list-inside">
-              <li>Can request to participate in volunteer work.</li>
-              <li>Can cancel a volunteer request if needed.</li>
-            </ul>
-          </li>
-          <li>🔐 User Authentication – Both Organizers and Volunteers can register and log in, with their information securely stored.</li>
-          <li>🔑 Google Authentication – Users can also log in using their Google accounts for convenience.</li>
-          <li>🔒 Protected Routes – Some pages are accessible only to registered Organizers and Volunteers.</li>
+          <li>🎮 Gaming Platform Section – A special section to learn more about gaming and explore new trends.</li>
+          <li>📝 Game Reviews – Users can add reviews for different games.</li>
+          <li>📌 Watchlist – Users can add games to their watchlist to keep track of favorites.</li>
+          <li>🔍 Detailed Reviews – Users can view all reviews of a game, along with a details button for more information.</li>
+          <li>✍️ My Reviews Section – Users can see only their own reviews in the "My Reviews" section.</li>
           <li>📱 Responsive Design Fully optimized for all devices — desktop, tablet, and mobile.</li>
-          <li>🎨 Theme Controller – Users can switch between different themes for a personalized experience.</li>
+          <li>🎨 Theme Controller – A theme switcher allows users to customize the website appearance.</li>
+          <li>🔐 User Authentication – Users can register and log in, with their information securely stored.</li>
+          <li>🔑 Google Authentication – Users can also log in using their Google accounts for convenience.</li>
+          <li>🔒 Protected Routes – Some sections of the website are accessible only to registered users.</li>
         </ul>
         <br></br>
           <span className='font-bold text-gray-900'>🛠️Technologies Used:</span>
