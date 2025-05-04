@@ -327,7 +327,7 @@ export default function() {
     delaySpeed={1000}
   />
       </h2>
-      <div className="h-64 w-[650px] mx-auto">
+      <div className="h-56 md:h-64 lg:w-[650px] mx-auto">
       <Swiper
         direction="vertical"
         modules={[Autoplay]}
@@ -374,7 +374,7 @@ export default function() {
     delaySpeed={1000}
   />
       </h2>
-      <div className="h-64 w-[650px] mx-auto">
+      <div className="h-56 md:h-64 lg:w-[650px] mx-auto">
       <Swiper
         direction="vertical"
         modules={[Autoplay]}
@@ -421,7 +421,7 @@ export default function() {
     delaySpeed={1000}
   />
       </h2>
-      <div className="h-64 w-[650px] mx-auto">
+      <div className="h-56 md:h-64 lg:w-[650px] mx-auto">
       <Swiper
         direction="vertical"
         modules={[Autoplay]}
@@ -468,7 +468,7 @@ export default function() {
     delaySpeed={1000}
   />
       </h2>
-      <div className="h-64 w-[650px] mx-auto">
+      <div className="h-56 md:h-64 lg:w-[650px] mx-auto">
       <Swiper
         direction="vertical"
         modules={[Autoplay]}
@@ -515,7 +515,7 @@ export default function() {
     delaySpeed={1000}
   />
       </h2>
-      <div className="h-64 w-[650px] mx-auto">
+      <div className="h-56 md:h-64 lg:w-[650px] mx-auto">
       <Swiper
         direction="vertical"
         modules={[Autoplay]}
@@ -558,8 +558,8 @@ export default function() {
       <p className='text-gray-500 font-medium mb-7 text-center' data-aos="fade-down" data-aos-delay="200">Get in touch
       </p>
       <div className="hero" data-aos="zoom-in" data-aos-delay="200">
-  <div className="hero-content justify-between gap-20 flex-col lg:flex-row-reverse">
-    <div className="text-center lg:text-left lg:ml-20">
+  <div className="hero-content w-full justify-between flex-col lg:flex-row-reverse">
+    <div className="text-center lg:text-left lg:p-14">
       <div classname='flex justify-center items-center' data-aos="fade-down" data-aos-delay="300">
       <i className="fa-solid fa-phone"></i>
       <div>
@@ -582,7 +582,7 @@ export default function() {
       </div>
       </div>
     </div>
-    <div className="card w-full max-w-lg  shrink-0 shadow-2xl">
+    <div className="card w-full md:w-10/12 lg:w-7/12 shrink-0 shadow-2xl">
       <form onSubmit={handleSendMessage} className="card-body">
         <div className="form-control">
           <label className="label">
