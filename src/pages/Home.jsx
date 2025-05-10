@@ -101,7 +101,7 @@ export default function() {
         <p className="pb-4 text-gray-500 font-medium" data-aos="fade-down" data-aos-delay="300">
         Welcome to my digital space where creativity meets code. I’m a web developer specializing in JavaScript, React, and Node.js. Explore my portfolio to see how technology and design come together to build impactful web experiences.
         </p>
-        <a href="https://drive.google.com/file/d/1Q7BEY_svV17TPwKyUgV6-IE6koHXX5oq/view?usp=drive_link" target="_blank" className="relative inline-flex items-center gap-2 px-4 py-3 font-medium text-white bg-[#008080] border-none rounded-lg overflow-hidden group transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:text-indigo-600 hover:bg-slate-300">Download Resume 
+        <a href="https://drive.google.com/file/d/1HPlo7zvvdl8o8KDNXfytBhTDXVYUGzJ3/view?usp=drive_link" target="_blank" className="relative inline-flex items-center gap-2 px-4 py-3 font-medium text-white bg-[#008080] border-none rounded-lg overflow-hidden group transition-all duration-300 ease-in-out transform hover:scale-105 hover:shadow-lg hover:text-indigo-600 hover:bg-slate-300">Download Resume 
         <i className="fa-solid fa-download" data-aos="fade-down" data-aos-delay="400"></i>
         <span className="absolute top-0 left-[-75%] w-[50%] h-full bg-gradient-to-r from-transparent via-white/40 to-transparent transform skew-x-[-25deg] group-hover:left-[130%] transition-all duration-700 ease-in-out"></span></a>
        </div>
